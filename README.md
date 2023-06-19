@@ -4,6 +4,6 @@
 
 * MILP_model: formualte the MILP model
 
-** to run model:
+## to run model:
 
 specifiy number of crowdsourcee, requests, and problem instance to solve, then run the function "milp_model"
