@@ -4,6 +4,10 @@
 
 * MILP_model: formualte the MILP model
 
-## to run model:
+## To run model:
 
-specifiy number of crowdsourcee, requests, and problem instance to solve, then run the function "milp_model"
+Specify number of crowdsourcee, requests, and problem instance to solve, then run the function "milp_model"
+
+## Reference
+
+Farazi, N. P., Zou, B., & Tulabandhula, T. (2022). Dynamic On-Demand Crowdshipping Using Constrained and Heuristics-Embedded Double Dueling Deep Q-Network. Transportation Research Part E: Logistics and Transportation Review, 166, 102890.
