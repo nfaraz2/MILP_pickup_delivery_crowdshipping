@@ -113,7 +113,9 @@ def milp_model (instance, n_crs, n_req):
 
 #%% Model run
 
-instance = 0
+# running instances with 2 crowdsourcee and 4 requests
+
+instance = 0 # there are 37 instances starting from 0 to 36
 n_crs= 2
 n_req = 4
 
