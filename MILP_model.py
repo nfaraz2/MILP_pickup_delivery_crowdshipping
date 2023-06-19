@@ -15,8 +15,11 @@ import pickle
 #%%Model formulation
 
 def milp_model (instance, n_crs, n_req):
-    
-    DIRECT =r'C:/Users/nfaraz2/Box/saved_data/Revision/CPLEX/'+str(n_crs)+'crs'+str(n_req)+'req/temp/publish/data_'+str(instance)+'.xlsx'
+
+    # importing data
+    DIRECT =r'/problem instances/'+str(n_crs)+'crs'+str(n_req)+'req/temp/publish/data_'+str(instance)+'.xlsx' # specfiy accordingly
+
+    # parameters
     pay_rate = 0.25
     EPTV = 0.1
     M = 100000
