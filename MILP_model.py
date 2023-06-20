@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 19 17:22:46 2023
-
-@author: nfaraz2
-"""
 import pandas as pd
 import numpy as np
 from docplex.mp.model import Model
